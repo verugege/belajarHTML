@@ -4,8 +4,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Belajar HTML</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+  <style>
+    h2{
+      background-color: bisque;
+    }
+  </style>
+
 </head>
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+
+
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Demografiiiii</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#video">Video</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#dewabujang">Dewa Bujang</a>
+              </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+  <div class="container">
 
   <h2>ini list dengan ol</h2>
   <ol>
@@ -24,7 +75,7 @@
 
   <h1>Belajar Praktek HTML bareng medio cademy</h1>
   <h2>pc are lock</h2>
-  <h3>DEWA BUJANG</H3>
+  <h3 id="dewabujang">DEWA BUJANG</H3>
   <H4> <b> bacot ance </b></H4>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas architecto et mollitia tempora ipsam eligendi minus animi nisi temporibus eveniet? Voluptas nostrum alias porro accusamus nobis sit! <b>Sit, aut debitis!</b></p>
   
@@ -35,11 +86,10 @@
       <img src="img/adventure-cold-desktop-backgrounds-1428277.jpg" width="200" height="200" alt="error">
 
       <img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi2r9CZptjeAhWGfisKHe79BtYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.osop.com.pa%2Fwhats-inside-the-sts-2-seismometer%2Fsts2-trip-1006-056%2F&psig=AOvVaw1EkQ23rXaGAVNETxCUxDK3&ust=1542436586367231" alt="offline">
-
-      <img src="https://kucing.org/wp-content/uploads/2017/11/gambar-kucing-anggora-dan-harganya-630x380.jpg" alt="">
-  <p><code>https://findmyfbid.in/</code></p>
-
   </ul>
+  <br></br>
+  <br></br>
+  <br></br>
 
   <table border="2" cellspacing="10" cellpadding="10">
     <tr style="background:rebeccapurple">
@@ -72,6 +122,8 @@
 <iframe src="https://www.youtube.com/embed/vg_Dpmf8L2Y" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2 id="contact">Contact</h2>
+<img src="https://kucing.org/wp-content/uploads/2017/11/gambar-kucing-anggora-dan-harganya-630x380.jpg" alt="">
+<p><code>https://findmyfbid.in/</code></p>
 <form>
   Nama : 
   <input type="<text>"><br>
@@ -84,6 +136,9 @@
     </button>
 </form>
 <p></p>
+
+  </div>
+  
 </body>
 <footer>ini footer</footer>
 </html>
